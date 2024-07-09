@@ -1,6 +1,6 @@
 export const continents = {
-  asia: "Asia",
   europe: "Europe",
+  asia: "Asia",
   africa: "Africa",
   northAmerica: "North America",
   southAmerica: "South America",
