@@ -7,9 +7,6 @@ export const continents = {
   oceania: "Oceania",
 } as const;
 
-// TODO: Ivory coast, maybe other missing countries, too?
-// Côte d’Ivoire
-
 const countries = [
   {
     name: "Afghanistan",
@@ -22,6 +19,18 @@ const countries = [
       "Buzkashi is the national sport of Afghanistan, which involves players on horseback trying to place a goat or calf carcass in a goal.",
       "The famous Buddhas of Bamiyan, which were destroyed by the Taliban in 2001, were the tallest standing Buddha statues in the world.",
     ],
+  },
+  {
+    name: "Åland Islands",
+    flag: "🇦🇽",
+    embedUrl:
+      "!1m18!1m12!1m3!1d1016483.330511471!2d18.89560232406993!3d60.15889766947938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468ae468c4e1eb19%3A0xcd43f68373428eed!2s%C3%85land%20Islands!5e0!3m2!1sen!2sdk!4v1720526582653!5m2!1sen!2sdk",
+    funFacts: [
+      "The Åland Islands are an autonomous region of Finland, with Swedish as the official language.",
+      "The archipelago of the Åland Islands consists of around 6700 islands, but only about 60 are inhabited.",
+      "Åland has its own parliament and issues its own postage stamps.",
+    ],
+    continent: continents.europe,
   },
   {
     name: "Albania",
@@ -48,6 +57,18 @@ const countries = [
     ],
   },
   {
+    name: "American Samoa",
+    flag: "🇦🇸",
+    embedUrl:
+      "!1m18!1m12!1m3!1d1991427.4981990764!2d-170.9300974049114!3d-12.875098027008548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71a684b79248fdc9%3A0xf3ee739e2dae4bdd!2sAmerican%20Samoa!5e0!3m2!1sen!2sdk!4v1720526599740!5m2!1sen!2sdk",
+    funFacts: [
+      "American Samoa is an unincorporated territory of the United States located in the South Pacific Ocean.",
+      "American Samoa is the only U.S. territory where residents are U.S. nationals but not U.S. citizens.",
+      "American Samoa is known for its coral reefs and is home to the National Park of American Samoa.",
+    ],
+    continent: continents.oceania,
+  },
+  {
     name: "Andorra",
     flag: "🇦🇩",
     continent: continents.europe,
@@ -70,6 +91,30 @@ const countries = [
       "The Giant Sable Antelope, thought to be extinct, was rediscovered in Angola in 2006.",
       "Angola’s capital, Luanda, is one of the most expensive cities in the world for expats.",
     ],
+  },
+  {
+    name: "Anguilla",
+    flag: "🇦🇮",
+    embedUrl:
+      "!1m18!1m12!1m3!1d242308.29375307748!2d-63.36495810275824!3d18.38979749011201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c0e63748eef01e5%3A0x3b9d6ad384e0d481!2sAnguilla!5e0!3m2!1sen!2sdk!4v1720526616921!5m2!1sen!2sdk",
+    funFacts: [
+      "Anguilla is a British overseas territory in the Caribbean known for its stunning beaches and clear turquoise waters.",
+      "Anguilla has a strong music culture, particularly known for its annual Anguilla Summer Festival featuring boat racing and calypso music.",
+      "Anguilla is named after the Spanish word for eel due to its elongated shape.",
+    ],
+    continent: continents.northAmerica,
+  },
+  {
+    name: "Antarctica",
+    flag: "🇦🇶",
+    embedUrl:
+      "!1m18!1m12!1m3!1d25138408.699560937!2d0!3d-67.3835390039519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4b9967b3390754b%3A0x6e52be1f740f2075!2sAntarctica!5e0!3m2!1sen!2sdk!4v1720526632978!5m2!1sen!2sdk",
+    funFacts: [
+      "Antarctica is the coldest, driest, and windiest continent, with temperatures reaching as low as -89.2°C.",
+      "Antarctica is the only continent without a native human population, and its inhabitants are mainly scientists and researchers.",
+      "Antarctica contains about 70% of the world’s freshwater in the form of ice.",
+    ],
+    continent: continents.oceania,
   },
   {
     name: "Antigua and Barbuda",
@@ -106,6 +151,30 @@ const countries = [
       "Armenia was the first country to adopt Christianity as the state religion, in 301 AD.",
       "Mount Ararat, where Noah’s Ark is believed to have landed, is a national symbol of Armenia.",
     ],
+  },
+  {
+    name: "Aruba",
+    flag: "🇦🇼",
+    embedUrl:
+      "!1m18!1m12!1m3!1d124638.94507596822!2d-70.04968973408248!3d12.518342912093198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8538cfe25a77db%3A0xf16a8a3e89818c2f!2sAruba!5e0!3m2!1sen!2sdk!4v1720526646398!5m2!1sen!2sdk",
+    funFacts: [
+      "Aruba is a constituent country of the Kingdom of the Netherlands located in the southern Caribbean Sea.",
+      "Aruba is known for its white-sand beaches, constant trade winds, and arid landscape.",
+      "Aruba’s capital, Oranjestad, features colorful Dutch colonial architecture.",
+    ],
+    continent: continents.northAmerica,
+  },
+  {
+    name: "Ascension Island",
+    flag: "🇦🇨",
+    embedUrl:
+      "!1m18!1m12!1m3!1d63224.914410916026!2d-14.399236283130925!3d-7.941231673147612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5b0f4126dd69e2d%3A0x40d606a7f1eda1e7!2sAscension%20Island!5e0!3m2!1sen!2sdk!4v1720526663408!5m2!1sen!2sdk",
+    funFacts: [
+      "Ascension Island is an isolated volcanic island in the South Atlantic Ocean and part of the British Overseas Territory of Saint Helena, Ascension, and Tristan da Cunha.",
+      "Ascension Island was a crucial naval and air base during World War II.",
+      "Ascension Island is home to the Green Mountain, which has a unique artificial rainforest created through reforestation efforts.",
+    ],
+    continent: continents.africa,
   },
   {
     name: "Australia",
@@ -240,6 +309,18 @@ const countries = [
     ],
   },
   {
+    name: "Bermuda",
+    flag: "🇧🇲",
+    embedUrl:
+      "!1m18!1m12!1m3!1d215791.17596532582!2d-65.07821575512901!3d32.31891539408456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8a2d139e8668b0a5%3A0x3cdffdc72c99b8bc!2sBermuda!5e0!3m2!1sen!2sdk!4v1720526685094!5m2!1sen!2sdk",
+    funFacts: [
+      "Bermuda is a British Overseas Territory located in the North Atlantic Ocean, known for its pink-sand beaches.",
+      "Bermuda is famous for the Bermuda Triangle, a region where ships and planes are said to have mysteriously disappeared.",
+      "Bermuda has one of the highest per capita incomes in the world.",
+    ],
+    continent: continents.northAmerica,
+  },
+  {
     name: "Bhutan",
     flag: "🇧🇹",
     continent: continents.asia,
@@ -298,6 +379,30 @@ const countries = [
       "The Amazon Rainforest, the largest tropical rainforest in the world, is located in Brazil.",
       "Brazil is famous for its annual Carnival festival, the largest in the world.",
     ],
+  },
+  {
+    name: "British Indian Ocean Territory",
+    flag: "🇮🇴",
+    embedUrl:
+      "!1m18!1m12!1m3!1d1015197.3735071073!2d71.22756614315223!3d-6.314233928977256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x249273e0849da387%3A0xa94f6470101f6be1!2sBritish%20Indian%20Ocean%20Territory!5e0!3m2!1sen!2sdk!4v1720526699994!5m2!1sen!2sdk",
+    funFacts: [
+      "The British Indian Ocean Territory consists of the Chagos Archipelago, located in the Indian Ocean.",
+      "Diego Garcia, the largest island of the British Indian Ocean Territory, hosts a major U.S. military base.",
+      "The indigenous Chagossian people were forcibly removed from the islands in the 1960s and 1970s to make way for the military base.",
+    ],
+    continent: continents.asia,
+  },
+  {
+    name: "British Virgin Islands",
+    flag: "🇻🇬",
+    embedUrl:
+      "!1m18!1m12!1m3!1d484161.72048265516!2d-64.8682796555537!3d18.550876980642684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c05739c2b6453cd%3A0x6da070eeb1ec3b3d!2sBritish%20Virgin%20Islands!5e0!3m2!1sen!2sdk!4v1720526713389!5m2!1sen!2sdk",
+    funFacts: [
+      "The British Virgin Islands (BVI) is a British Overseas Territory located in the Caribbean, known for its reef-lined beaches and yacht-filled harbors.",
+      "The British Virgin Islands consists of over 50 islands and cays, with Tortola being the largest and most populated.",
+      "The British Virgin Islands are a popular offshore financial center with a large number of registered companies.",
+    ],
+    continent: continents.northAmerica,
   },
   {
     name: "Brunei",
@@ -396,6 +501,42 @@ const countries = [
     ],
   },
   {
+    name: "Canary Islands",
+    flag: "🇮🇨",
+    embedUrl:
+      "!1m18!1m12!1m3!1d1796288.1048900336!2d-17.172441176010604!3d28.438103824193867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41aa86ef755363%3A0x10340f3be4bc8c0!2sCanary%20Islands%2C%20Spain!5e0!3m2!1sen!2sdk!4v1720526727471!5m2!1sen!2sdk",
+    funFacts: [
+      "The Canary Islands are an autonomous community of Spain located off the northwest coast of Africa.",
+      "The archipelago of the Canary Islands consists of seven main islands, with Tenerife being the largest and most populous.",
+      "The Canary Islands have a subtropical climate and are a popular tourist destination known for their volcanic landscapes and beaches.",
+    ],
+    continent: continents.africa,
+  },
+  {
+    name: "Caribbean Netherlands",
+    flag: "🇧🇶",
+    embedUrl:
+      "!1m18!1m12!1m3!1d3950076.5608877465!2d-68.35972663601937!3d14.797359063621057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c22188b8f1db9b7%3A0xe16d35d72183b5cf!2sCaribbean%20Netherlands!5e0!3m2!1sen!2sdk!4v1720526738950!5m2!1sen!2sdk",
+    funFacts: [
+      "The Caribbean Netherlands consists of three special municipalities of the Netherlands: Bonaire, Sint Eustatius, and Saba.",
+      "The Bonaire municipality of Caribbean Netherlands is known for its world-class diving and snorkeling sites, particularly in the Bonaire National Marine Park.",
+      "The Saba municipality of Caribbean Netherlands is home to Mount Scenery, the highest point in the Kingdom of the Netherlands.",
+    ],
+    continent: continents.northAmerica,
+  },
+  {
+    name: "Cayman Islands",
+    flag: "🇰🇾",
+    embedUrl:
+      "!1m18!1m12!1m3!1d962768.8658177969!2d-81.23364647978899!3d19.506555615930875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f25863e2fb8aa29%3A0x7045c4d38770715e!2sCayman%20Islands!5e0!3m2!1sen!2sdk!4v1720526760185!5m2!1sen!2sdk",
+    funFacts: [
+      "The Cayman Islands are a British Overseas Territory located in the western Caribbean Sea, known for their stunning beaches and coral reefs.",
+      "The Cayman Islands are a major financial center, with more registered businesses than people.",
+      "The Cayman Islands are famous for Stingray City, where visitors can interact with friendly stingrays.",
+    ],
+    continent: continents.northAmerica,
+  },
+  {
     name: "Central African Republic",
     flag: "🇨🇫",
     continent: continents.africa,
@@ -444,6 +585,30 @@ const countries = [
     ],
   },
   {
+    name: "Christmas Island",
+    flag: "🇨🇽",
+    embedUrl:
+      "!1m18!1m12!1m3!1d125539.31283518567!2d105.54131924054721!3d-10.492504690027538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2ef59a27e3c0a7cf%3A0x15e7d6090475ea16!2sChristmas%20Island!5e0!3m2!1sen!2sdk!4v1720526774435!5m2!1sen!2sdk",
+    funFacts: [
+      "Christmas Island is an Australian external territory located in the Indian Ocean, known for its unique red crab migration.",
+      "Christmas Island is named after the day of its discovery, December 25, 1643.",
+      "Christmas Island National Park covers about 63% of the island and is home to many endemic species.",
+    ],
+    continent: continents.asia,
+  },
+  {
+    name: "Cocos (Keeling) Islands",
+    flag: "🇨🇨",
+    embedUrl:
+      "!1m18!1m12!1m3!1d249753.68896354482!2d96.70825555875088!3d-12.015863885114658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2f0ec5897ee869c1%3A0xdbd142f010e39fa6!2sCocos%20(Keeling)%20Islands!5e0!3m2!1sen!2sdk!4v1720526795143!5m2!1sen!2sdk",
+    funFacts: [
+      "The Cocos (Keeling) Islands are an Australian external territory in the Indian Ocean, consisting of two atolls and 27 coral islands.",
+      "The Cocos (Keeling) Islands are known for their stunning white-sand beaches and clear turquoise waters.",
+      "The population of the Cocos (Keeling) Islands is mainly of Malay descent, and the islands have a unique blend of Australian and Malay cultures.",
+    ],
+    continent: continents.asia,
+  },
+  {
     name: "Colombia",
     flag: "🇨🇴",
     continent: continents.southAmerica,
@@ -466,6 +631,30 @@ const countries = [
       "Comoros is one of the world’s top producers of ylang-ylang, a flower used in perfumes.",
       "Comoros is the only country in the Arab League that is entirely in the Southern Hemisphere.",
     ],
+  },
+  {
+    name: "Cook Islands",
+    flag: "🇨🇰",
+    embedUrl:
+      "!1m18!1m12!1m3!1d7871465.045006248!2d-166.23167718462446!3d-15.565512073231082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71548aefb97bdedd%3A0x24ca50e8808b4d8!2sCook%20Islands!5e0!3m2!1sen!2sdk!4v1720526810974!5m2!1sen!2sdk",
+    funFacts: [
+      "The Cook Islands is a self-governing territory in free association with New Zealand, located in the South Pacific Ocean.",
+      "The Cook Islands are known for their beautiful lagoons, coral reefs, and Polynesian culture.",
+      "Rarotonga is the largest island of the Cook Islands, and the most populous, with the capital city, Avarua, located there.",
+    ],
+    continent: continents.oceania,
+  },
+  {
+    name: "Curaçao",
+    flag: "🇨🇼",
+    embedUrl:
+      "!1m18!1m12!1m3!1d249590.37549594181!2d-69.10067423161841!3d12.19063397567056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e849dbe62c7fdc7%3A0xfc7f9228dbc64723!2zQ3VyYcOnYW8!5e0!3m2!1sen!2sdk!4v1720526824152!5m2!1sen!2sdk",
+    funFacts: [
+      "Curaçao is a constituent country of the Kingdom of the Netherlands, located in the southern Caribbean Sea.",
+      "Curaçao is known for its colorful Dutch colonial architecture, particularly in the capital city, Willemstad, a UNESCO World Heritage site.",
+      "Curaçao is famous for its vibrant music scene, including genres like tumba and tambú.",
+    ],
+    continent: continents.northAmerica,
   },
   {
     name: "Costa Rica",
@@ -564,6 +753,18 @@ const countries = [
     ],
   },
   {
+    name: "Diego Garcia",
+    flag: "🇩🇬",
+    embedUrl:
+      "!1m18!1m12!1m3!1d126627.0421890964!2d72.34651950988611!3d-7.343220588801197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x249273fe6d69b0ad%3A0x3b3c07570eb0d1c5!2sDiego%20Garcia!5e0!3m2!1sen!2sdk!4v1720526838576!5m2!1sen!2sdk",
+    funFacts: [
+      "Diego Garcia is the largest island in the Chagos Archipelago and is part of the British Indian Ocean Territory.",
+      "Diego Garcia hosts a major U.S. military base and is strategically important for military operations in the Indian Ocean region.",
+      "The indigenous Chagossian people were forcibly removed from Diego Garcia in the 1960s and 1970s to make way for the military base.",
+    ],
+    continent: continents.asia,
+  },
+  {
     name: "Djibouti",
     flag: "🇩🇯",
     continent: continents.africa,
@@ -636,6 +837,18 @@ const countries = [
     ],
   },
   {
+    name: "England",
+    flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    embedUrl:
+      "!1m18!1m12!1m3!1d2469625.981222934!2d-4.965815442861769!3d52.808950828717414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d0a98a6c1ed5df%3A0xf4e19525332d8ea8!2sEngland%2C%20UK!5e0!3m2!1sen!2sdk!4v1720526851985!5m2!1sen!2sdk",
+    funFacts: [
+      "England is the largest and most populous country in the United Kingdom, known for its rich history and cultural heritage.",
+      "England is home to numerous historic landmarks, including Stonehenge, the Tower of London, and Buckingham Palace.",
+      "England is famous for its contributions to literature, with renowned authors such as William Shakespeare, Charles Dickens, and Jane Austen.",
+    ],
+    continent: continents.europe,
+  },
+  {
     name: "Equatorial Guinea",
     flag: "🇬🇶",
     continent: continents.africa,
@@ -696,6 +909,18 @@ const countries = [
     ],
   },
   {
+    name: "Falkland Islands",
+    flag: "🇫🇰",
+    embedUrl:
+      "!1m18!1m12!1m3!1d1265508.9594860869!2d-60.84685056700019!3d-51.72028232995426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc2a89b94491e3a3%3A0x322aaaff8dd9c53a!2sFIQQ%201ZZ%2C%20Falkland%20Islands%20(Islas%20Malvinas)!5e0!3m2!1sen!2sdk!4v1720526865881!5m2!1sen!2sdk",
+    funFacts: [
+      "The Falkland Islands are a British Overseas Territory located in the South Atlantic Ocean, known for their rugged landscapes and abundant wildlife.",
+      "The Falkland Islands are home to large colonies of penguins, seals, and albatrosses.",
+      "The Falkland Islands were the site of a conflict between the United Kingdom and Argentina in 1982.",
+    ],
+    continent: continents.southAmerica,
+  },
+  {
     name: "Fiji",
     flag: "🇫🇯",
     continent: continents.oceania,
@@ -730,6 +955,42 @@ const countries = [
       "The Eiffel Tower in Paris, the capital of France, is one of the most recognizable structures in the world.",
       "France is famous for its cuisine, fashion, art, and architecture.",
     ],
+  },
+  {
+    name: "French Guiana",
+    flag: "🇬🇫",
+    embedUrl:
+      "!1m18!1m12!1m3!1d2037731.4791062828!2d-54.43252657927344!3d4.0317889752241864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d12155785f7d753%3A0xde27f7e90f0af446!2sFrench%20Guiana!5e0!3m2!1sen!2sdk!4v1720526881124!5m2!1sen!2sdk",
+    funFacts: [
+      "French Guiana is an overseas department of France located on the northeastern coast of South America.",
+      "French Guiana is home to the Guiana Space Centre, a major European spaceport.",
+      "French Guiana has a diverse ecosystem, with the Amazon rainforest covering much of its territory and housing numerous plant and animal species.",
+    ],
+    continent: continents.southAmerica,
+  },
+  {
+    name: "French Polynesia",
+    flag: "🇵🇫",
+    embedUrl:
+      "!1m18!1m12!1m3!1d15606628.739469828!2d-155.23649054694303!3d-17.256970906004266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x741875d07c6dd74d%3A0x9bc07a7a09c35711!2sFrench%20Polynesia!5e0!3m2!1sen!2sdk!4v1720526903247!5m2!1sen!2sdk",
+    funFacts: [
+      "French Polynesia is an overseas collectivity of France located in the South Pacific Ocean, consisting of 118 islands and atolls.",
+      "French Polynesia is known for its stunning lagoons, coral reefs, and overwater bungalows, particularly in Bora Bora and Tahiti.",
+      "French Polynesia has a rich cultural heritage, with traditional Polynesian music, dance, and crafts playing a central role in island life.",
+    ],
+    continent: continents.oceania,
+  },
+  {
+    name: "French Southern Territories",
+    flag: "🇹🇫",
+    embedUrl:
+      "!1m18!1m12!1m3!1d11872428.336116023!2d53.208969059290645!3d-43.407499828880596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb314c43e0409c437%3A0xb88a214c90e6d029!2sFrench%20Southern%20and%20Antarctic%20Lands!5e0!3m2!1sen!2sdk!4v1720526922220!5m2!1sen!2sdk",
+    funFacts: [
+      "The French Southern Territories consist of several islands in the southern Indian Ocean and a portion of Antarctica known as Adélie Land.",
+      "The French Southern Territories are home to a variety of wildlife, including penguins, seals, and seabirds.",
+      "The territories are uninhabited except for a small number of military personnel and researchers.",
+    ],
+    continent: continents.oceania,
   },
   {
     name: "Gabon",
@@ -792,6 +1053,18 @@ const countries = [
     ],
   },
   {
+    name: "Gibraltar",
+    flag: "🇬🇮",
+    embedUrl:
+      "!1m18!1m12!1m3!1d25780.174019166665!2d-5.3738995383666355!3d36.129507486515266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0cbf762714be35%3A0x384e25263600870f!2sGibraltar!5e0!3m2!1sen!2sdk!4v1720526935710!5m2!1sen!2sdk",
+    funFacts: [
+      "Gibraltar is a British Overseas Territory located at the southern tip of the Iberian Peninsula.",
+      "The Rock of Gibraltar is a major landmark and home to the only wild monkey population in Europe, the Barbary macaques.",
+      "Gibraltar has a strategic location controlling access to the Mediterranean Sea from the Atlantic Ocean.",
+    ],
+    continent: continents.europe,
+  },
+  {
     name: "Greece",
     flag: "🇬🇷",
     continent: continents.europe,
@@ -826,6 +1099,42 @@ const countries = [
       "Grenada has one of the world’s largest underwater sculpture parks.",
       "Grenada gained independence from the United Kingdom in 1974.",
     ],
+  },
+  {
+    name: "Guadeloupe",
+    flag: "🇬🇵",
+    embedUrl:
+      "!1m18!1m12!1m3!1d490544.5561944523!2d-61.726693972088285!3d16.14937629711535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c0e755a77287d51%3A0xecbe3e37b74a07ab!2sGuadeloupe!5e0!3m2!1sen!2sdk!4v1720526950641!5m2!1sen!2sdk",
+    funFacts: [
+      "Guadeloupe is an overseas department of France located in the Caribbean Sea.",
+      "The archipelago of Guadeloupe consists of two main islands, Basse-Terre and Grande-Terre, and several smaller islands.",
+      "Guadeloupe is known for its stunning beaches, tropical rainforests, and active volcano, La Grande Soufrière.",
+    ],
+    continent: continents.northAmerica,
+  },
+  {
+    name: "Guam",
+    flag: "🇬🇺",
+    embedUrl:
+      "!1m18!1m12!1m3!1d496688.7636443807!2d144.45917364028543!3d13.450597819468737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x671f76ff930f24ef%3A0x5571ae91c5b3e5a6!2sGuam!5e0!3m2!1sen!2sdk!4v1720526963941!5m2!1sen!2sdk",
+    funFacts: [
+      "Guam is an unincorporated territory of the United States located in the western Pacific Ocean.",
+      "Guam is the largest and southernmost of the Mariana Islands and is a major strategic military base for the U.S.",
+      "Guam is known for its rich Chamorro culture, beautiful beaches, and World War II historical sites.",
+    ],
+    continent: continents.oceania,
+  },
+  {
+    name: "Guernsey",
+    flag: "🇬🇬",
+    embedUrl:
+      "!1m18!1m12!1m3!1d331234.18480139336!2d-2.7844991042224714!3d49.56441806873783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480d20e4f4bfb3ed%3A0x990ad58a5d0d9899!2sGuernsey!5e0!3m2!1sen!2sdk!4v1720526975853!5m2!1sen!2sdk",
+    funFacts: [
+      "Guernsey is a British Crown dependency located in the English Channel, near the coast of Normandy, France.",
+      "Guernsey has a unique status and is not part of the United Kingdom or the European Union.",
+      "Guernsey is known for its low taxes and beautiful coastal scenery, including cliffs, beaches, and historic fortifications.",
+    ],
+    continent: continents.europe,
   },
   {
     name: "Guatemala",
@@ -886,6 +1195,18 @@ const countries = [
       "The Citadelle Laferrière in Haiti is one of the largest fortresses in the Americas.",
       "Haiti shares the island of Hispaniola with the Dominican Republic.",
     ],
+  },
+  {
+    name: "Heard & McDonald Islands",
+    flag: "🇭🇲",
+    embedUrl:
+      "!1m18!1m12!1m3!1d167293.61914559253!2d73.36800481044625!3d-53.06104081482297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb301524b88922bfd%3A0x261ddac2e5b3767e!2sHeard%20Island%20and%20McDonald%20Islands!5e0!3m2!1sen!2sdk!4v1720527010710!5m2!1sen!2sdk",
+    funFacts: [
+      "Heard and McDonald Islands are an Australian external territory located in the southern Indian Ocean.",
+      "Heard & McDonald Islands are among the most remote places on Earth and are uninhabited by humans.",
+      "Heard Island has an active volcano, Mawson Peak, which is the highest point in Australian territory.",
+    ],
+    continent: continents.oceania,
   },
   {
     name: "Honduras",
@@ -996,6 +1317,18 @@ const countries = [
     ],
   },
   {
+    name: "Isle of Man",
+    flag: "🇮🇲",
+    embedUrl:
+      "!1m18!1m12!1m3!1d298546.56831517635!2d-5.195818978707872!3d54.22619636482065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48638530442e81d5%3A0xea025bbcf1f0e00d!2sIsle%20of%20Man!5e0!3m2!1sen!2sdk!4v1720527035813!5m2!1sen!2sdk",
+    funFacts: [
+      "The Isle of Man is a British Crown dependency located in the Irish Sea between Great Britain and Ireland.",
+      "The Isle of Man is known for its rugged coastline, medieval castles, and annual TT motorcycle races.",
+      "The Isle of Man has its own parliament, the Tynwald, which claims to be the oldest continuous parliamentary body in the world.",
+    ],
+    continent: continents.europe,
+  },
+  {
     name: "Israel",
     flag: "🇮🇱",
     continent: continents.asia,
@@ -1042,6 +1375,18 @@ const countries = [
       "Japan has the world’s oldest continuous hereditary monarchy, dating back to 660 BC.",
       "Japan is famous for its technology, cuisine (including sushi and ramen), and traditional arts such as tea ceremony and ikebana.",
     ],
+  },
+  {
+    name: "Jersey",
+    flag: "🇯🇪",
+    embedUrl:
+      "!1m18!1m12!1m3!1d83405.21509631241!2d-2.2195589313260635!3d49.211694693888084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480c52a48c927533%3A0x519c23a30a1a6cc3!2sJersey!5e0!3m2!1sen!2sdk!4v1720527047088!5m2!1sen!2sdk",
+    funFacts: [
+      "Jersey is the largest of the Channel Islands and a British Crown dependency located near the coast of Normandy, France.",
+      "Jersey is known for its beautiful beaches, historic castles, and rich agricultural produce, particularly Jersey cows.",
+      "Jersey has its own legal and financial systems, separate from the United Kingdom.",
+    ],
+    continent: continents.europe,
   },
   {
     name: "Jordan",
@@ -1236,6 +1581,18 @@ const countries = [
     ],
   },
   {
+    name: "Macau",
+    flag: "🇲🇴",
+    embedUrl:
+      "!1m18!1m12!1m3!1d59120.9436889312!2d113.52895317331317!3d22.161826825131797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34017ae0e235c8f3%3A0xc67be32cb485acf6!2sMacao!5e0!3m2!1sen!2sdk!4v1720527061819!5m2!1sen!2sdk",
+    funFacts: [
+      "Macau is a Special Administrative Region of China located on the southern coast, near Hong Kong.",
+      "Macau is known for its blend of Portuguese and Chinese cultures, as well as its vibrant gambling industry.",
+      "Macau has a unique legal system and enjoys a high degree of autonomy under the “one country, two systems” principle.",
+    ],
+    continent: continents.asia,
+  },
+  {
     name: "Madagascar",
     flag: "🇲🇬",
     continent: continents.africa,
@@ -1320,6 +1677,18 @@ const countries = [
     ],
   },
   {
+    name: "Martinique",
+    flag: "🇲🇶",
+    embedUrl:
+      "!1m18!1m12!1m3!1d247064.68738713983!2d-61.1785831827481!3d14.634031607918955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c6aa0f90066070d%3A0xe1001b1217afe7b0!2sMartinique!5e0!3m2!1sen!2sdk!4v1720527127625!5m2!1sen!2sdk",
+    funFacts: [
+      "Martinique is an overseas department of France located in the Caribbean Sea.",
+      "Martinique is known for its stunning beaches, tropical rainforests, and Mount Pelée, an active volcano.",
+      "Martinique has a rich Creole culture and is famous for its rum production.",
+    ],
+    continent: continents.northAmerica,
+  },
+  {
     name: "Mauritania",
     flag: "🇲🇷",
     continent: continents.africa,
@@ -1342,6 +1711,18 @@ const countries = [
       "Mauritius is known for its stunning beaches, coral reefs, and clear lagoons.",
       "Mauritius has a diverse culture influenced by Indian, African, French, and Chinese communities.",
     ],
+  },
+  {
+    name: "Mayotte",
+    flag: "🇾🇹",
+    embedUrl:
+      "!1m18!1m12!1m3!1d248996.3824372796!2d44.99097420340506!3d-12.806498616563788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x220a0e33dcf28dbb%3A0xff32176795fe2a4b!2sMayotte!5e0!3m2!1sen!2sdk!4v1720527139710!5m2!1sen!2sdk",
+    funFacts: [
+      "Mayotte is an overseas department of France located in the Indian Ocean between Madagascar and the coast of Mozambique.",
+      "Mayotte is known for its diverse marine life, coral reefs, and beautiful lagoon, one of the largest in the world.",
+      "Mayotte has a blend of African, Arab, and French cultural influences.",
+    ],
+    continent: continents.africa,
   },
   {
     name: "Mexico",
@@ -1415,6 +1796,18 @@ const countries = [
       "Montenegro declared its independence from Serbia in 2006, making it one of the world’s youngest nations.",
       "Montenegro is home to the Tara River Canyon, the second deepest canyon in the world.",
     ],
+  },
+  {
+    name: "Montserrat",
+    flag: "🇲🇸",
+    embedUrl:
+      "!1m18!1m12!1m3!1d122257.07565026614!2d-62.27641036700784!3d16.75010684795152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c13ab53e1c7369d%3A0x1e0fea838805b1a2!2sMontserrat!5e0!3m2!1sen!2sdk!4v1720527096950!5m2!1sen!2sdk",
+    funFacts: [
+      "Montserrat is a British Overseas Territory located in the Caribbean Sea, known as the “Emerald Isle of the Caribbean” due to its Irish heritage.",
+      "Montserrat’s capital, Plymouth, was destroyed by a volcanic eruption in 1995, and much of the southern part of the island is now an exclusion zone.",
+      "Montserrat is famous for its St. Patrick’s Day celebrations, reflecting its Irish connections.",
+    ],
+    continent: continents.northAmerica,
   },
   {
     name: "Morocco",
@@ -1501,6 +1894,18 @@ const countries = [
     ],
   },
   {
+    name: "New Caledonia",
+    flag: "🇳🇨",
+    embedUrl:
+      "!1m18!1m12!1m3!1d1904526.4641064336!2d164.86676521924684!3d-21.20096624357534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6c27e2693f1a32cb%3A0xf6d0f68fd5937aec!2sNew%20Caledonia!5e0!3m2!1sen!2sdk!4v1720527156630!5m2!1sen!2sdk",
+    funFacts: [
+      "New Caledonia is a special collectivity of France located in the southwest Pacific Ocean.",
+      "New Caledonia is known for its stunning coral reefs, including the world’s second-largest barrier reef, and its rich biodiversity.",
+      "New Caledonia has a unique blend of Melanesian and French cultures and is an important center for nickel mining.",
+    ],
+    continent: continents.oceania,
+  },
+  {
     name: "New Zealand",
     flag: "🇳🇿",
     continent: continents.oceania,
@@ -1547,6 +1952,42 @@ const countries = [
       "Nigeria is known for its Nollywood film industry, which is the second largest in the world by volume.",
       "Nigeria is home to the Zuma Rock, a natural monolith that is often referred to as the “Gateway to Abuja.”",
     ],
+  },
+  {
+    name: "Niue",
+    flag: "🇳🇺",
+    embedUrl:
+      "!1m18!1m12!1m3!1d120679.02900908618!2d-169.94460542260202!3d-19.054077616093863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x719d252a376eb73b%3A0x914278347bdc8b18!2sNiue!5e0!3m2!1sen!2sdk!4v1720527165987!5m2!1sen!2sdk",
+    funFacts: [
+      "Niue is a self-governing territory in free association with New Zealand, located in the South Pacific Ocean.",
+      "Niue is known for its rugged limestone cliffs, coral reefs, and clear waters, making it a popular destination for diving and snorkeling.",
+      "Niue is one of the world’s largest coral islands and has a small population with a strong sense of community.",
+    ],
+    continent: continents.oceania,
+  },
+  {
+    name: "Norfolk Island",
+    flag: "🇳🇫",
+    embedUrl:
+      "!1m18!1m12!1m3!1d111595.87358695858!2d167.87357983248728!3d-29.0651785398431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6c4bd11fadbac939%3A0xb97a9823335d1552!2sNorfolk%20Island!5e0!3m2!1sen!2sdk!4v1720527182734!5m2!1sen!2sdk",
+    funFacts: [
+      "Norfolk Island is an Australian external territory located in the Pacific Ocean between Australia, New Zealand, and New Caledonia.",
+      "Norfolk Island is known for its towering Norfolk Island pines and its history as a penal colony.",
+      "Norfolk Island has its own flag, language (Norfolk), and legislature.",
+    ],
+    continent: continents.oceania,
+  },
+  {
+    name: "Northern Mariana Islands",
+    flag: "🇲🇵",
+    embedUrl:
+      "!1m18!1m12!1m3!1d3900795.787318315!2d142.84568141091654!3d17.297645342399516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x66d8b13490995c51%3A0x9db7ebab7c3a0e32!2sNorthern%20Mariana%20Islands!5e0!3m2!1sen!2sdk!4v1720527196731!5m2!1sen!2sdk",
+    funFacts: [
+      "The Northern Mariana Islands are a commonwealth in political union with the United States, located in the western Pacific Ocean.",
+      "The Northern Mariana Islands are known for their beautiful beaches, clear waters, and World War II historical sites.",
+      "Saipan, the largest island of the Northern Mariana Islands, is a popular tourist destination with a mix of American and Pacific cultures.",
+    ],
+    continent: continents.oceania,
   },
   {
     name: "North Korea",
@@ -1682,6 +2123,18 @@ const countries = [
     ],
   },
   {
+    name: "Pitcairn Islands",
+    flag: "🇵🇳",
+    embedUrl:
+      "!1m18!1m12!1m3!1d3718828.1963899564!2d-130.37429482777432!3d-24.462295809748756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9e380f7fdca8078b%3A0x469c8cc719159ac8!2sPitcairn%20Islands!5e0!3m2!1sen!2sdk!4v1720527209701!5m2!1sen!2sdk",
+    funFacts: [
+      "The Pitcairn Islands are a group of four volcanic islands in the southern Pacific Ocean, and are a British Overseas Territory.",
+      "Pitcairn Island is the only inhabited island of the Pitcairn Islands and is known for being settled by the descendants of the HMS Bounty mutineers.",
+      "With a population of around 50, the Pitcairn Islands is one of the least populous jurisdictions in the world.",
+    ],
+    continent: continents.oceania,
+  },
+  {
     name: "Philippines",
     flag: "🇵🇭",
     continent: continents.asia,
@@ -1718,6 +2171,18 @@ const countries = [
     ],
   },
   {
+    name: "Puerto Rico",
+    flag: "🇵🇷",
+    embedUrl:
+      "!1m18!1m12!1m3!1d970179.3494937456!2d-67.32446222451652!3d18.220807801082586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c0296261b92a7f9%3A0xf336ec2818049b1a!2sPuerto%20Rico!5e0!3m2!1sen!2sdk!4v1720527222243!5m2!1sen!2sdk",
+    funFacts: [
+      "Puerto Rico is an unincorporated territory of the United States located in the Caribbean Sea.",
+      "Puerto Rico is known for its vibrant culture, beautiful beaches, and historic Old San Juan with its colorful buildings and fortresses.",
+      "El Yunque National Forest in Puerto Rico is the only tropical rainforest in the U.S. National Forest System.",
+    ],
+    continent: continents.northAmerica,
+  },
+  {
     name: "Qatar",
     flag: "🇶🇦",
     continent: continents.asia,
@@ -1740,6 +2205,18 @@ const countries = [
       "The Republic of the Congo is known for its diverse wildlife, including gorillas, elephants, and chimpanzees.",
       "Brazzaville, the capital of the Republic of the Congo, is located directly across the Congo River from Kinshasa, the capital of the Democratic Republic of the Congo.",
     ],
+  },
+  {
+    name: "Réunion",
+    flag: "🇷🇪",
+    embedUrl:
+      "!1m18!1m12!1m3!1d238171.54647568354!2d55.362497740369186!3d-21.135262782813292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2178778110b8e43b%3A0x4a7f8e89ecdbeaf9!2zUsOpdW5pb24!5e0!3m2!1sen!2sdk!4v1720527233292!5m2!1sen!2sdk",
+    funFacts: [
+      "Réunion is an overseas department of France located in the Indian Ocean, east of Madagascar.",
+      "Réunion is known for its active volcano, Piton de la Fournaise, and its diverse landscapes, including rainforests, beaches, and mountains.",
+      "Réunion has a unique blend of cultures, including French, African, Indian, and Chinese influences.",
+    ],
+    continent: continents.africa,
   },
   {
     name: "Romania",
@@ -1778,6 +2255,30 @@ const countries = [
     ],
   },
   {
+    name: "Saint Barthélemy",
+    flag: "🇧🇱",
+    embedUrl:
+      "!1m18!1m12!1m3!1d60739.43233058833!2d-62.912649498936176!3d17.92214566297489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c0e75542afee89d%3A0x174116bea2a75e6!2sSt%20Barth%C3%A9lemy!5e0!3m2!1sen!2sdk!4v1720527311772!5m2!1sen!2sdk",
+    funFacts: [
+      "Saint Barthélemy, commonly known as Saint Barts, is a French overseas collectivity located in the Caribbean Sea.",
+      "Saint Barthélemy is known for its luxury tourism, pristine beaches, and high-end restaurants and boutiques.",
+      "Saint Barthélemy has a blend of French and Caribbean culture and is a popular destination for celebrities and wealthy tourists.",
+    ],
+    continent: continents.northAmerica,
+  },
+  {
+    name: "Saint Helena",
+    flag: "🇸🇭",
+    embedUrl:
+      "!1m18!1m12!1m3!1d14963815.715815846!2d-20.89113980364566!3d-23.701860211604735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25a3b10c91d2619%3A0xe4710f5b2b64dc6e!2sSt%20Helena%2C%20Ascension%20and%20Tristan%20da%20Cunha!5e0!3m2!1sen!2sdk!4v1720527324534!5m2!1sen!2sdk",
+    funFacts: [
+      "Saint Helena is a British Overseas Territory located in the South Atlantic Ocean.",
+      "Saint Helena is famous for being the place of Napoleon Bonaparte’s exile and death.",
+      "Saint Helena has unique flora and fauna, including the critically endangered Saint Helena plover, known locally as the wirebird.",
+    ],
+    continent: continents.africa,
+  },
+  {
     name: "Saint Kitts and Nevis",
     flag: "🇰🇳",
     continent: continents.northAmerica,
@@ -1800,6 +2301,18 @@ const countries = [
       "The island of Saint Lucia has a drive-in volcano, Sulphur Springs, where visitors can drive right up to the crater.",
       "Saint Lucia is famous for its annual jazz festival, attracting international artists and tourists.",
     ],
+  },
+  {
+    name: "Saint Pierre & Miquelon",
+    flag: "🇵🇲",
+    embedUrl:
+      "!1m18!1m12!1m3!1d348570.7942147488!2d-56.58252621456947!3d46.957577013989855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b6c4b4bfb0e57d1%3A0x9c716737ea6c5c11!2sSt%20Pierre%20and%20Miquelon!5e0!3m2!1sen!2sdk!4v1720527347566!5m2!1sen!2sdk",
+    funFacts: [
+      "Saint Pierre & Miquelon is a self-governing territorial overseas collectivity of France, located near the Canadian province of Newfoundland and Labrador.",
+      "Saint Pierre & Miquelon is known for its French culture, fishing industry, and unique blend of French and North American influences.",
+      "Saint Pierre & Miquelon is the last remaining part of the former French colonial empire in North America.",
+    ],
+    continent: continents.northAmerica,
   },
   {
     name: "Saint Vincent and the Grenadines",
@@ -1862,6 +2375,18 @@ const countries = [
     ],
   },
   {
+    name: "Scotland",
+    flag: "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    embedUrl:
+      "!1m18!1m12!1m3!1d4373832.916741119!2d-9.959769436358496!3d57.63725658914369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4861e2c403f2a19f%3A0xe7c1fad809c30714!2sScotland%2C%20UK!5e0!3m2!1sen!2sdk!4v1720527249654!5m2!1sen!2sdk",
+    funFacts: [
+      "Scotland is a country that is part of the United Kingdom, known for its rich history, cultural heritage, and stunning landscapes.",
+      "Scotland is famous for its castles, whisky, and the Loch Ness Monster legend.",
+      "Scotland has its own legal system, education system, and an autonomous parliament.",
+    ],
+    continent: continents.europe,
+  },
+  {
     name: "Senegal",
     flag: "🇸🇳",
     continent: continents.africa,
@@ -1922,6 +2447,18 @@ const countries = [
     ],
   },
   {
+    name: "Sint Maarten",
+    flag: "🇸🇽",
+    embedUrl:
+      "!1m18!1m12!1m3!1d60702.65546913471!2d-63.10029949843048!3d18.029103090590553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c0e6e62d6f890c3%3A0x728b2cc226338f42!2sSint%20Maarten!5e0!3m2!1sen!2sdk!4v1720527262856!5m2!1sen!2sdk",
+    funFacts: [
+      "Sint Maarten is a constituent country of the Kingdom of the Netherlands, located in the Caribbean and sharing the island of Saint Martin with the French overseas collectivity of Saint-Martin.",
+      "Sint Maarten is known for its lively nightlife, beaches, and duty-free shopping.",
+      "Sint Maarten’s Princess Juliana International Airport is famous for its runway that is extremely close to Maho Beach, where planes fly low over beachgoers.",
+    ],
+    continent: continents.northAmerica,
+  },
+  {
     name: "Slovakia",
     flag: "🇸🇰",
     continent: continents.europe,
@@ -1980,6 +2517,18 @@ const countries = [
       "South Africa is known for its stunning natural landscapes, including Table Mountain and Kruger National Park.",
       "South Africa is the only country in the world to have three capital cities: Pretoria, Bloemfontein, and Cape Town.",
     ],
+  },
+  {
+    name: "South Georgia & South Sandwich Islands",
+    flag: "🇬🇸",
+    embedUrl:
+      "!1m18!1m12!1m3!1d4477743.557689773!2d-37.221155990659824!3d-56.77046891641015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb93db6e252a87925%3A0x7ee37cda884db0bd!2sSouth%20Georgia%20and%20the%20South%20Sandwich%20Islands!5e0!3m2!1sen!2sdk!4v1720527296463!5m2!1sen!2sdk",
+    funFacts: [
+      "South Georgia & South Sandwich Islands are a British Overseas Territory in the southern Atlantic Ocean.",
+      "South Georgia & South Sandwich Islands are known for their rugged terrain, glaciers, and abundant wildlife, including penguins, seals, and seabirds.",
+      "There are no permanent residents, but the South Georgia & South Sandwich Islands are staffed by British government officials and scientists.",
+    ],
+    continent: continents.oceania,
   },
   {
     name: "South Korea",
@@ -2163,6 +2712,18 @@ const countries = [
     ],
   },
   {
+    name: "Tokelau",
+    flag: "🇹🇰",
+    embedUrl:
+      "!1m18!1m12!1m3!1d504459.4758280481!2d-172.20731610811646!3d-8.963886197358683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x705226aab3781df7%3A0x8f7062466ddb9b37!2sTokelau!5e0!3m2!1sen!2sdk!4v1720527365982!5m2!1sen!2sdk",
+    funFacts: [
+      "Tokelau is a dependent territory of New Zealand, consisting of three tropical atolls in the South Pacific Ocean.",
+      "Tokelau is one of the most remote in the world and can only be reached by boat from Samoa.",
+      "Tokelau has a unique system of governance, with each atoll having its own local government and a rotating leadership among the atolls.",
+    ],
+    continent: continents.oceania,
+  },
+  {
     name: "Tonga",
     flag: "🇹🇴",
     continent: continents.oceania,
@@ -2185,6 +2746,18 @@ const countries = [
       "Trinidad and Tobago is famous for its Carnival, a vibrant and colorful festival celebrated with music, dancing, and parades.",
       "Trinidad and Tobago is home to the largest population of nesting leatherback turtles in the world.",
     ],
+  },
+  {
+    name: "Tristan Da Cunha",
+    flag: "🇹🇦",
+    embedUrl:
+      "!1m18!1m12!1m3!1d50904.55092147713!2d-12.325175613947838!3d-37.11619847241521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25a3b1a1af6dc9b%3A0x69ee2d95dc98aedb!2sTristan%20da%20Cunha!5e0!3m2!1sen!2sdk!4v1720527385652!5m2!1sen!2sdk",
+    funFacts: [
+      "Tristan da Cunha is part of the British Overseas Territory of Saint Helena, Ascension, and Tristan da Cunha, located in the South Atlantic Ocean.",
+      "Tristan da Cunha is the most remote inhabited archipelago in the world, with the nearest land, Saint Helena, over 2,400 kilometers away.",
+      "The main island of Tristan da Cunha has a small population that lives in the village of Edinburgh of the Seven Seas.",
+    ],
+    continent: continents.africa,
   },
   {
     name: "Tunisia",
@@ -2221,6 +2794,18 @@ const countries = [
       "Turkmenistan is known for the Darvaza Gas Crater, also known as the “Door to Hell,” a natural gas field that has been burning for decades.",
       "Turkmenistan has a rich history, with ancient cities like Merv, a UNESCO World Heritage site, which was an important stop on the Silk Road.",
     ],
+  },
+  {
+    name: "Turks & Caicos Islands",
+    flag: "🇹🇨",
+    embedUrl:
+      "!1m18!1m12!1m3!1d474920.77200328204!2d-72.11974192642643!3d21.57348609825056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x894b5f55bebb6b75%3A0x7e11c780028dc1de!2sTKCA%201ZZ%2C%20Turks%20and%20Caicos%20Islands!5e0!3m2!1sen!2sdk!4v1720527404013!5m2!1sen!2sdk",
+    funFacts: [
+      "The Turks & Caicos Islands are a British Overseas Territory located in the Atlantic Ocean, southeast of the Bahamas.",
+      "The Turks & Caicos Islands are known for their stunning beaches, coral reefs, and luxury resorts.",
+      "Grand Turk is home to the Turks and Caicos National Museum, which showcases the Turks & Caicos Islands’ history and culture.",
+    ],
+    continent: continents.northAmerica,
   },
   {
     name: "Tuvalu",
@@ -2307,6 +2892,18 @@ const countries = [
     ],
   },
   {
+    name: "U.S. Virgin Islands",
+    flag: "🇻🇮",
+    embedUrl:
+      "!1m18!1m12!1m3!1d485625.91440660716!2d-65.14624564271163!3d18.02740993759582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c051065f2daacb9%3A0xf91d891d1bc51c05!2sU.S.%20Virgin%20Islands!5e0!3m2!1sen!2sdk!4v1720527418522!5m2!1sen!2sdk",
+    funFacts: [
+      "The U.S. Virgin Islands are an unincorporated territory of the United States located in the Caribbean Sea.",
+      "The U.S. Virgin Islands consists of three main islands: Saint Thomas, Saint John, and Saint Croix, each with its own unique attractions.",
+      "The U.S. Virgin Islands are known for their beautiful beaches, crystal-clear waters, and vibrant culture.",
+    ],
+    continent: continents.northAmerica,
+  },
+  {
     name: "Uzbekistan",
     flag: "🇺🇿",
     continent: continents.asia,
@@ -2366,6 +2963,30 @@ const countries = [
       "Vietnam is famous for its cuisine, including dishes like pho, banh mi, and spring rolls.",
       "Vietnam has stunning natural landscapes, such as Ha Long Bay, a UNESCO World Heritage site with thousands of limestone islands.",
     ],
+  },
+  {
+    name: "Wales",
+    flag: "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    embedUrl:
+      "!1m18!1m12!1m3!1d1246453.274289461!2d-5.478741006138991!3d52.39799353071568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486434b66c1c0fed%3A0x1ebb71bc8aa5e8a2!2sWales%2C%20UK!5e0!3m2!1sen!2sdk!4v1720527431902!5m2!1sen!2sdk",
+    funFacts: [
+      "Wales is a country that is part of the United Kingdom, known for its rugged coastline, mountainous national parks, and Celtic culture.",
+      "Wales has its own language, Welsh, which is one of the oldest languages in Europe.",
+      "Wales is famous for its castles, with more castles per square mile than any other country in the world.",
+    ],
+    continent: continents.europe,
+  },
+  {
+    name: "Wallis & Futuna",
+    flag: "🇼🇫",
+    embedUrl:
+      "!1m18!1m12!1m3!1d992022.2382034973!2d-177.82218582057226!3d-13.773634769378196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71c8b1066e1a4b3d%3A0x16c918ec8fd20a1b!2sWallis%20and%20Futuna!5e0!3m2!1sen!2sdk!4v1720527444912!5m2!1sen!2sdk",
+    funFacts: [
+      "Wallis and Futuna is a French overseas collectivity located in the South Pacific Ocean, consisting of three main islands and a number of smaller islets.",
+      "Wallis & Futuna is known for its volcanic landscapes, traditional Polynesian culture, and beautiful lagoons.",
+      "Wallis and Futuna has a unique political structure with three traditional kingdoms that coexist with the French administration.",
+    ],
+    continent: continents.oceania,
   },
   {
     name: "Western Sahara",
