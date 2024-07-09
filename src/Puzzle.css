@@ -5,7 +5,6 @@ main {
   grid-template-columns: 1fr 1fr;
   gap: 2px;
   background-color: #080808;
-  border: 2px solid #080808;
 }
 
 .map iframe {
