@@ -101,7 +101,7 @@ const countries = [
     embedUrl:
       "!1m18!1m12!1m3!1d6253663.755539335!2d39.7667215824152!3d40.06321462350852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40155684e773bac7%3A0xd0b4757aeb822d23!2sArmenia!5e0!3m2!1sen!2sdk!4v1720460276718!5m2!1sen!2sdk",
     funFacts: [
-      "Armenia is home to the world’s oldest winery, dating back 6,100 years.",
+      "Armenia is home to the world’s oldest winery, dating back 6100 years.",
       "Armenia was the first country to adopt Christianity as the state religion, in 301 AD.",
       "Mount Ararat, where Noah’s Ark is believed to have landed, is a national symbol of Armenia.",
     ],
@@ -390,7 +390,7 @@ const countries = [
       "!1m18!1m12!1m3!1d19119302.433658063!2d-116.73720973810401!3d54.19956842864173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0d03d337cc6ad9%3A0x9968b72aa2438fa5!2sCanada!5e0!3m2!1sen!2sdk!4v1720461178127!5m2!1sen!2sdk",
     funFacts: [
       "Canada is the second largest country in the world by land area.",
-      "Canada has the longest coastline of any country, stretching over 202,080 kilometers.",
+      "Canada has the longest coastline of any country, stretching over 202080 kilometers.",
       "Canada is known for its multicultural cities, stunning natural landscapes, and friendly people.",
     ],
   },
@@ -425,7 +425,7 @@ const countries = [
     embedUrl:
       "!1m18!1m12!1m3!1d26974178.716126516!2d-91.23754032825109!3d-34.38236912308441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5410425af2f%3A0x505e1131102b91d!2sChile!5e0!3m2!1sen!2sdk!4v1720461254771!5m2!1sen!2sdk",
     funFacts: [
-      "Chile is the longest north-south country in the world, stretching over 4,300 kilometers.",
+      "Chile is the longest north-south country in the world, stretching over 4300 kilometers.",
       "Chile is home to the Atacama Desert, the driest desert in the world.",
       "Chile has over 2000 volcanoes, about 500 of which are potentially active.",
     ],
@@ -1157,7 +1157,7 @@ const countries = [
     embedUrl:
       "!1m18!1m12!1m3!1d1775813.115117862!2d26.914915695435468!3d-29.621559655018807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e8c4827d65f8ceb%3A0x232d57b878d11eb3!2sLesotho!5e0!3m2!1sen!2sdk!4v1720467602239!5m2!1sen!2sdk",
     funFacts: [
-      "Lesotho is known as the “Kingdom in the Sky” due to its high altitude, with the entire country situated above 1,400 meters sea level.",
+      "Lesotho is known as the “Kingdom in the Sky” due to its high altitude, with the entire country situated above 1400 meters sea level.",
       "Lesotho is one of the few countries in the world entirely surrounded by another country.",
       "Lesotho is famous for its traditional Basotho blankets, worn by the local people as part of their cultural heritage.",
     ],
@@ -1915,7 +1915,7 @@ const countries = [
     embedUrl:
       "!1m18!1m12!1m3!1d2698362.5460173446!2d17.062221466353055!3d48.66495396523686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471460b9ae7cc67f%3A0xcd6b6167b1723a7d!2sSlovakia!5e0!3m2!1sen!2sdk!4v1720469007492!5m2!1sen!2sdk",
     funFacts: [
-      "Slovakia is home to more than 6,000 caves, many of which are open to the public for exploration.",
+      "Slovakia is home to more than 6000 caves, many of which are open to the public for exploration.",
       "Slovakia has the highest number of castles and chateaux per capita in the world.",
       "Slovakia is known for its traditional folk music and dance, particularly the fujara, a traditional Slovak shepherd’s flute.",
     ],
@@ -2266,7 +2266,7 @@ const countries = [
     funFacts: [
       "The United Kingdom is made up of four countries: England, Scotland, Wales, and Northern Ireland.",
       "The United Kingdom is home to some of the world’s most famous landmarks, including Big Ben, Buckingham Palace, and Stonehenge.",
-      "The British monarchy of the United Kingdom is one of the oldest in the world, with a history dating back over 1,200 years.",
+      "The British monarchy of the United Kingdom is one of the oldest in the world, with a history dating back over 1200 years.",
     ],
   },
   {
