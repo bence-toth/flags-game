@@ -43,22 +43,20 @@ main {
   text-wrap: balance;
 }
 
-.content .flag-selection-wrapper {
+.content .flag-selection-container {
   display: flex;
   justify-content: center;
 }
 
-.content .flag-selection {
+.content .flag-selection-wrapper {
   display: inline-grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 2em;
 }
 
-.content .flag-selection > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.content .flag-selection {
+  position: relative;
 }
 
 .content .flag-selection button {
@@ -69,4 +67,87 @@ main {
   padding: 0.25em;
   line-height: 1;
   cursor: pointer;
+}
+
+.content .flag-selection.selected {
+  z-index: 1;
+}
+
+.content .flag-selection.selected.incorrect button {
+  border-color: #c90000;
+  background-color: #ffd7d7;
+  animation: shake 150ms 4 linear;
+  position: relative;
+  z-index: 1;
+}
+
+.content .flag-selection.selected::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.content .flag-selection.selected.incorrect::after {
+  border: 5px solid #c90000;
+  background-color: red;
+  animation: grow-and-fade 500ms 1 linear;
+  animation-fill-mode: forwards;
+}
+
+.content .flag-selection.selected.correct::after {
+  border: 5px solid #00c90a;
+  background-color: #00ff0d;
+  animation: grow-and-fade 500ms 1 linear;
+  animation-fill-mode: forwards;
+}
+
+.content .flag-selection.selected.correct button {
+  border-color: #00c90a;
+  background-color: #cfffd1;
+  animation: pop 500ms 1 linear;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(5px, 0) rotate(2.5deg);
+  }
+
+  50% {
+    transform: translate(-5px, 0) rotate(-2.5deg);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(105%);
+  }
+
+  50% {
+    transform: scale(95%);
+  }
+
+  100% {
+    transform: scale(100%);
+  }
+}
+
+@keyframes grow-and-fade {
+  0% {
+    transform: scale(100%);
+    opacity: 0.25;
+  }
+
+  100% {
+    transform: scale(300%);
+    opacity: 0;
+  }
 }

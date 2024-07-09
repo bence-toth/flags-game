@@ -2357,7 +2357,7 @@ const countries = [
   {
     name: "Western Sahara",
     flag: "🇪🇭",
-    continent: continents.asia,
+    continent: continents.africa,
     embedUrl:
       "!1m18!1m12!1m3!1d3988863.194048862!2d106.50601917094986!3d12.491337362609434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31157a4d736a1e5f%3A0xb03bb0c9e2fe62be!2sVietnam!5e0!3m2!1sen!2sdk!4v1720469562688!5m2!1sen!2sdk",
     buggyUrl: true,
@@ -2406,5 +2406,3 @@ const countries = [
 ];
 
 export default countries;
-
-console.log(JSON.stringify(countries.map((country) => country.name)));
