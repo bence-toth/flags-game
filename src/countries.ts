@@ -8,6 +8,7 @@ export const continents = {
 } as const;
 
 // TODO: Ivory coast, maybe other missing countries, too?
+// Côte d’Ivoire
 
 const countries = [
   {
@@ -476,6 +477,18 @@ const countries = [
       "Costa Rica is known for its biodiversity, with over 25% of its land area protected as national parks and reserves.",
       "Costa Rica abolished its military in 1949 and has no standing army.",
       "Costa Rica is a leading eco-tourism destination, attracting visitors with its rainforests, beaches, and volcanoes.",
+    ],
+  },
+  {
+    name: "Côte d’Ivoire",
+    flag: "🇨🇮",
+    continent: continents.africa,
+    embedUrl:
+      "!1m18!1m12!1m3!1d4051194.0153639163!2d-10.565270438272645!3d7.438214480116977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xf961387b049a067%3A0x1f91e627cb9ee40!2sC%C3%B4te%20d&#39;Ivoire!5e0!3m2!1sen!2sdk!4v1720522302650!5m2!1sen!2sdk",
+    funFacts: [
+      "Côte d’Ivoire, also known as Ivory Coast, is the world's largest producer of cocoa beans, which are used to make chocolate.",
+      "Côte d’Ivoire is known for its vibrant music scene, particularly genres like coupé-décalé and zouglou.",
+      "Côte d’Ivoire is home to the Basilica of Our Lady of Peace in Yamoussoukro, which is one of the largest churches in the world.",
     ],
   },
   {
