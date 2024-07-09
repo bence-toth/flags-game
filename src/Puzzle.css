@@ -61,11 +61,14 @@ main {
 .content .flag-selection button {
   background-color: white;
   border: 2px solid #080808;
-  border-radius: 0.2em;
-  font-size: clamp(36px, 10vmin, 96px);
+  border-radius: 20px;
   padding: 0.25em;
   line-height: 1;
   cursor: pointer;
+}
+
+.content .flag-selection button img {
+  width: clamp(36px, 15vmin, 160px);
 }
 
 .content .flag-selection.selected {

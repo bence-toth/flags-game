@@ -42,7 +42,7 @@ const Puzzle = ({ selectedContinents }: { selectedContinents: string[] }) => {
                     onSelectChoice(choice);
                   }}
                 >
-                  {choice.flag}
+                  <img src={choice.flag} alt="Flag" />
                 </button>
               </div>
             ))}
