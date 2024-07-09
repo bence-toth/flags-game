@@ -1197,18 +1197,6 @@ const countries = [
     ],
   },
   {
-    name: "Heard & McDonald Islands",
-    flag: "🇭🇲",
-    embedUrl:
-      "!1m18!1m12!1m3!1d167293.61914559253!2d73.36800481044625!3d-53.06104081482297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb301524b88922bfd%3A0x261ddac2e5b3767e!2sHeard%20Island%20and%20McDonald%20Islands!5e0!3m2!1sen!2sdk!4v1720527010710!5m2!1sen!2sdk",
-    funFacts: [
-      "Heard and McDonald Islands are an Australian external territory located in the southern Indian Ocean.",
-      "Heard & McDonald Islands are among the most remote places on Earth and are uninhabited by humans.",
-      "Heard Island has an active volcano, Mawson Peak, which is the highest point in Australian territory.",
-    ],
-    continent: continents.oceania,
-  },
-  {
     name: "Honduras",
     flag: "🇭🇳",
     continent: continents.northAmerica,
