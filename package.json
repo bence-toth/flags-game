@@ -2,8 +2,10 @@
   "name": "countries-flags-game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bence-toth.github.io/flags-game",
   "dependencies": {
     "classnames": "^2.5.1",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.24.1",
@@ -19,7 +21,9 @@
     "lint-js": "eslint \"**/*.{ts,tsx}\"",
     "lint-css": "stylelint \"**/*.css\"",
     "prettier": "prettier --check .",
-    "test:coverage": "npm test -- --coverage --watchAll=false"
+    "test:coverage": "npm test -- --coverage --watchAll=false",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
