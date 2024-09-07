@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/flags-game/static/css/main.4de89d4a.css",
-    "main.js": "/flags-game/static/js/main.3bfb2136.js",
+    "main.css": "/flags-game/static/css/main.a5133b5c.css",
+    "main.js": "/flags-game/static/js/main.8d443966.js",
     "static/js/453.e428b0b8.chunk.js": "/flags-game/static/js/453.e428b0b8.chunk.js",
     "static/media/british-indian-ocean-territory.png": "/flags-game/static/media/british-indian-ocean-territory.8f8460b59dd4c2c714cf.png",
     "static/media/diego-garcia.png": "/flags-game/static/media/diego-garcia.8f8460b59dd4c2c714cf.png",
@@ -256,12 +256,12 @@
     "static/media/peru.png": "/flags-game/static/media/peru.5dbdf5ce924b4c3f41c6.png",
     "static/media/belgium.png": "/flags-game/static/media/belgium.fd06fc79a96d7de1d59f.png",
     "index.html": "/flags-game/index.html",
-    "main.4de89d4a.css.map": "/flags-game/static/css/main.4de89d4a.css.map",
-    "main.3bfb2136.js.map": "/flags-game/static/js/main.3bfb2136.js.map",
+    "main.a5133b5c.css.map": "/flags-game/static/css/main.a5133b5c.css.map",
+    "main.8d443966.js.map": "/flags-game/static/js/main.8d443966.js.map",
     "453.e428b0b8.chunk.js.map": "/flags-game/static/js/453.e428b0b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4de89d4a.css",
-    "static/js/main.3bfb2136.js"
+    "static/css/main.a5133b5c.css",
+    "static/js/main.8d443966.js"
   ]
 }
